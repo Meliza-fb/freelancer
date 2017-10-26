@@ -1,3 +1,437 @@
 /*
  * Estilos de tu proyecto
  */
+ #menu{
+   background-color:#2c3e50 ;
+   width: 1370px;
+   height: 108px;
+   margin-top: -16px;
+   margin-left:-8px;
+   position: fixed;
+   /*overflow: hidden;*/
+   font-family: 'Montserrat', sans-serif;
+   text-transform: uppercase;
+ }
+
+ #menu p .free{
+   outline:inherit;
+   background-color: #2c3e50;
+   font-size: 32px;
+   color: white;
+   margin-left:120px;
+   position: relative;
+   bottom: 90px;
+ }
+
+#menu p .port{
+  outline:inherit;
+  background-color: #2c3e50;
+  font-size: 17px;
+  color: white;
+  margin-left: 938px;
+  position: relative;
+  top: 26px;
+}
+
+#menu p .ab{
+  outline:inherit;
+  background-color: #2c3e50;
+  font-size: 17px;
+  color: white;
+  margin-left: 1055px;
+  position: relative;
+  bottom: 10px;
+}
+
+#menu p .con{
+  outline:inherit;
+  background-color: #2c3e50;
+  font-size: 17px;
+  color: white;
+  margin-left: 1136px;
+  position: relative;
+  bottom: 45px;
+}
+
+#menu a:hover{
+  color: #18bc9c;
+}
+
+#subm{
+  background-color:#18bc9c;
+  height: 680px;
+  width: 1349px;
+  margin-left:-8px;
+  margin-right: -8px;
+  margin-top: 92px;
+  position:absolute;
+  }
+
+  #subm .profile{
+    position: absolute;
+    top:92px;
+    left: 548px;
+  }
+
+#subm h1{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 76px;
+  color: white;
+  margin-top: 150px;
+  position: relative;
+  text-align: center;
+  top: 228px;
+}
+
+#subm .Antes1{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background: white;
+  left: 550px;
+  bottom:160px;
+}
+
+#subm .star_blanco{
+  font-size:32px;
+  color: white;
+  position: absolute;
+  margin-top: 186px;
+  left: 660px;
+}
+
+#subm .Despues1{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background: white;
+  left: 697px;
+  bottom:160px;
+}
+
+#subm p{
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 240px;
+}
+
+#Portfolio{
+  height: 680px;
+  width: 1349px;
+  margin-left:-8px;
+  margin-right: -8px;
+  margin-top: 800px;
+  position:absolute;
+}
+
+#Portfolio p{
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 25px;
+}
+
+#Portfolio .Antes2{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background:#2c3e50 ;
+  left: 550px;
+  top: 155px;
+}
+
+#Portfolio .star_azul{
+  font-size:32px;
+  color: #2c3e50;
+  position: absolute;
+  left: 660px;
+  top: 150px;
+}
+
+#Portfolio .Despues2{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background:#2c3e50;
+  left: 697px;
+  top: 155px;
+}
+
+.images{
+margin-top: 85px;
+text-align: center;
+
+}
+
+.i_1{
+display: inline-block;
+height: 250px;
+width: 350px;
+margin-right: 25px;
+}
+
+.i_2{
+display: inline-block;
+height: 250px;
+width: 350px;
+margin-right: 25px;
+}
+
+.i_3{
+display: inline-block;
+height: 250px;
+width: 350px;
+}
+
+.i_4{
+  display: inline-block;
+  height: 250px;
+  width: 350px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.i_5{
+  display: inline-block;
+  height: 250px;
+  width: 350px;
+  margin-right: 25px;
+}
+
+.i_6{
+  display: inline-block;
+  height: 250px;
+  width: 350px;
+}
+
+#about{
+  background-color:#18bc9c;
+  height: 680px;
+  width: 1349px;
+  margin-left:-8px;
+  margin-right: -8px;
+  margin-top: 1650px;
+  position:absolute;
+  text-align: center;
+  overflow: hidden;
+}
+
+#about h1{
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+#about .Antes3{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background: white ;
+  left: 550px;
+  top: 167px;
+}
+
+#about .star_about{
+  font-size:32px;
+  color: white;
+  position: absolute;
+  left: 660px;
+  top: 162px;
+}
+
+#about .Despues3{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background:white;
+  left: 697px;
+  top: 167px;
+}
+
+#about ul{
+  list-style: none;
+  padding: 0;
+  padding-left: 250px;
+  line-height: 30px;
+  overflow: auto;
+  text-align: left;
+  padding-top: 10px;
+}
+
+#about li{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-left: 50px;
+  /*outline: 1px solid red;*/
+  width: 350px;
+  /*display: inline-block;*/
+  float: left;
+}
+
+.boton{
+  height: 30px;
+  width: 160px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+a{
+  outline: 2px solid white;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+a:hover{
+  background: white;
+  color: #18bc9c;
+}
+
+#contact{
+  height: 680px;
+  width: 1349px;
+  margin-left:-8px;
+  margin-right: -8px;
+  margin-top: 1000px;
+  position:absolute;
+}
+
+#contact h1{
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 1420px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contact .Antes4{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background: #2c3e50 ;
+  left: 550px;
+  top: 1500px;
+}
+
+#contact .star_contact{
+  font-size:32px;
+  color: #2c3e50;
+  position: absolute;
+  left: 660px;
+  top:1490px;
+}
+
+#contact .Despues4{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background:#2c3e50;
+  left: 697px;
+  top:1500px;
+}
+
+#contact .name{
+  outline-color: #F3F0F0;
+  border: 1px solid #F3F0F0;
+  position: absolute;
+  font-size: 22px;
+  width: 800px;
+  height: 30px;
+  margin-top: 60px;
+  margin-left: 300px;
+}
+
+#contact .email{
+  outline-color: #F3F0F0;
+  border: 1px solid #F3F0F0;
+  position: absolute;
+  font-size: 22px;
+  width: 800px;
+  height: 30px;
+  margin-top: 160px;
+  margin-left: 300px;
+}
+
+#contact .phone{
+  outline-color: #F3F0F0;
+  border: 1px solid #F3F0F0;
+  position: absolute;
+  font-size: 22px;
+  width: 800px;
+  height: 30px;
+  margin-top: 260px;
+  margin-left: 300px;
+}
+
+#contact .mss{
+  outline-color: #F3F0F0;
+  border: 1px solid #F3F0F0;
+  font-size: 22px;
+  width: 800px;
+  height: 20px;
+  text-align: left;
+  padding-bottom: 200px;
+  margin-top: 350px;
+  margin-left: 300px;
+
+}
+
+#contact .send{
+  background: #18bc9c;
+  text-align:center;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 300px;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+
+#pie{
+  background: #2c3e50;
+  height: 308px;
+  position: relative;
+  top: 3280px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+#pie ul li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  color: white;
+  text-transform: uppercase;
+  list-style: none;
+  text-align: center;
+  float: left;
+  margin-left: 150px;
+  margin-top:60px;
+}
+
+#pie .info h6 h5{
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-transform:capitalize;
+  float: left;
+  width: 300px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left:60px;
+  margin-right: 294px;
+}
